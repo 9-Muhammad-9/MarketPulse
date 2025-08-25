@@ -1,0 +1,8 @@
+{
+  "name": "marketpulse-ai",
+  "version": "1.0.0",
+  "description": "Real-time market news with AI analysis",
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
+}
