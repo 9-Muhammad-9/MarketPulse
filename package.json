@@ -1,8 +1,22 @@
 {
-  "name": "marketpulse-ai",
-  "version": "1.0.0",
-  "description": "Real-time market news with AI analysis",
+  "name": "marketpulse-ai-pro",
+  "version": "2.1.0",
+  "description": "Real-time multi-asset trading signals with AI analysis and advanced advertising",
+  "type": "module",
   "dependencies": {
-    "axios": "^1.5.0"
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "technicalindicators": "^3.1.0",
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0",
+    "rate-limiter-flexible": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "echo 'No build step required for Netlify functions'",
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
   }
 }
